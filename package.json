@@ -1,5 +1,6 @@
 {
   "name": "candor-band",
+  "homepage": "https://jlcampbell.github.io/candorBand/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
