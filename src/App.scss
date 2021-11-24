@@ -21,7 +21,7 @@ body {
   overflow: auto;
   height: 100%;
   overscroll-behavior: none;
-  background-color: transparent;
+  background-color: black;
 }
 .App {
   text-align: center;
@@ -30,6 +30,7 @@ body {
   height: 100vh;
   padding-bottom: 250px; 
   font-family: 'Roboto Mono', monospace;
+  position: relative;
 }
 .logo {
   width: 60%;
@@ -39,9 +40,26 @@ body {
 .logo-sm {
   width: 200px;
   padding: 10px;
+  
+}
+.mobileNav {
+  display: block;
+  text-align: left;
+  .logo-sm{
+    width: 75px;
+  }
+  .navLinks {
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0;
+  li {
+    padding: 10px 0px;
+  }
+  }
 }
 .Nav {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   padding: 0 100px;
@@ -175,4 +193,13 @@ footer {
     font-size: 8px;
   }
 
+}
+
+@media only screen and (min-width: 600px) {
+  .mobileNav {
+    display: none;
+  }
+  .Nav {
+    display: flex;
+  }
 }
