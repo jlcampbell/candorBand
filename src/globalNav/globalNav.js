@@ -20,6 +20,7 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import { ListItemButton } from '@mui/material';
 import logo from '../logoName.png';
+import styles from './globalNav.module.scss'
 
 const drawerWidth = 240;
 
@@ -152,7 +153,7 @@ export default function PersistentDrawerLeft(props) {
           >
             {open && <CloseIcon/> }
           </AlignedIconButton>
-          <CenterHeader className="logo-sm" src={logo} alt="Candor Logo"></CenterHeader>
+          <CenterHeader className={styles.logo} src={logo} alt="Candor Logo"></CenterHeader>
 
         </Toolbar>
       </AppBar>

@@ -1,5 +1,6 @@
 
 import logo from '../logoName.png';
+import styles from './footer.module.scss'
 
 export function Footer() {
     return <footer>
@@ -9,9 +10,9 @@ export function Footer() {
 
       </a>
     </button>
-  <img className="logo-footer" src={logo} alt="Candor Logo"></img>
-    <div className='name'>©Candor, 2021</div>
-    <div className='builtBy'>site by jessica campbell</div>
+  <img className={styles.logoFooter} src={logo} alt="Candor Logo"></img>
+    <div className={styles.name}>©Candor, 2021</div>
+    <div className={styles.builtBy}>site by jessica campbell</div>
 
   </footer>
 }

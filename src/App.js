@@ -1,5 +1,5 @@
 import logo from './logoName.png';
-import './App.scss';
+import styles from './App.module.scss';
 import { Footer } from './footer/footer';
 import PersistentDrawerLeft from './globalNav/globalNav'
 import grey from '@mui/material/colors/grey'
@@ -19,11 +19,11 @@ const theme = createTheme({
 function App() {
   return (
 <ThemeProvider theme={theme}>
-    <div className="App">
+    <div className={styles.App}>
       <PersistentDrawerLeft>
-        <div className="banner">
+        <div className={styles.banner}>
         </div>
-        <div>
+        <div className={styles.content}>
           
         <BuyButton></BuyButton>
 
