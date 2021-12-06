@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/candorBand/static/css/main.af697992.chunk.css",
-    "main.js": "/candorBand/static/js/main.cfe2ffd7.chunk.js",
-    "main.js.map": "/candorBand/static/js/main.cfe2ffd7.chunk.js.map",
-    "runtime-main.js": "/candorBand/static/js/runtime-main.f0a30771.js",
-    "runtime-main.js.map": "/candorBand/static/js/runtime-main.f0a30771.js.map",
-    "static/js/2.73d9c56d.chunk.js": "/candorBand/static/js/2.73d9c56d.chunk.js",
-    "static/js/2.73d9c56d.chunk.js.map": "/candorBand/static/js/2.73d9c56d.chunk.js.map",
-    "static/js/3.c4a55fcb.chunk.js": "/candorBand/static/js/3.c4a55fcb.chunk.js",
-    "static/js/3.c4a55fcb.chunk.js.map": "/candorBand/static/js/3.c4a55fcb.chunk.js.map",
+    "main.css": "/candorBand/static/css/main.ac48f7a3.chunk.css",
+    "main.js": "/candorBand/static/js/main.ed37b294.chunk.js",
+    "main.js.map": "/candorBand/static/js/main.ed37b294.chunk.js.map",
+    "runtime-main.js": "/candorBand/static/js/runtime-main.8ac91324.js",
+    "runtime-main.js.map": "/candorBand/static/js/runtime-main.8ac91324.js.map",
+    "static/js/2.895d22a2.chunk.js": "/candorBand/static/js/2.895d22a2.chunk.js",
+    "static/js/2.895d22a2.chunk.js.map": "/candorBand/static/js/2.895d22a2.chunk.js.map",
+    "static/js/3.33303dd0.chunk.js": "/candorBand/static/js/3.33303dd0.chunk.js",
+    "static/js/3.33303dd0.chunk.js.map": "/candorBand/static/js/3.33303dd0.chunk.js.map",
     "index.html": "/candorBand/index.html",
-    "static/css/main.af697992.chunk.css.map": "/candorBand/static/css/main.af697992.chunk.css.map",
-    "static/js/2.73d9c56d.chunk.js.LICENSE.txt": "/candorBand/static/js/2.73d9c56d.chunk.js.LICENSE.txt",
+    "static/css/main.ac48f7a3.chunk.css.map": "/candorBand/static/css/main.ac48f7a3.chunk.css.map",
+    "static/js/2.895d22a2.chunk.js.LICENSE.txt": "/candorBand/static/js/2.895d22a2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/candorBand/static/media/MAYHEM-Regular.fbe4f8da.otf",
     "static/media/App.module.scss": "/candorBand/static/media/banner-crop.2f0e8808.png",
-    "static/media/logoName.43104816.png": "/candorBand/static/media/logoName.43104816.png"
+    "static/media/logoName.e8583439.png": "/candorBand/static/media/logoName.e8583439.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0a30771.js",
-    "static/js/2.73d9c56d.chunk.js",
-    "static/css/main.af697992.chunk.css",
-    "static/js/main.cfe2ffd7.chunk.js"
+    "static/js/runtime-main.8ac91324.js",
+    "static/js/2.895d22a2.chunk.js",
+    "static/css/main.ac48f7a3.chunk.css",
+    "static/js/main.ed37b294.chunk.js"
   ]
 }
